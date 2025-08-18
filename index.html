@@ -12,16 +12,16 @@
         <div class="tela"></div>
             <table>
                 <tr>
-                    <td><button>C</button></td>
+                    <td><button onclick="clean()">C</button></td>
                     <td><button>+/-</button></td>
                     <td><button onclick="inserir('%')">%</button></td>
-                    <td><button onclick="inserir('÷')">÷</button></td>
+                    <td><button onclick="inserir('/')">÷</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="inserir('7')">7</button></td>
                     <td><button onclick="inserir('8')">8</button></td>
                     <td><button onclick="inserir('9')">9</button></td>
-                    <td><button onclick="inserir('x')">x</button></td>
+                    <td><button onclick="inserir('*')">x</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="inserir('4')">4</button></td>
@@ -33,13 +33,13 @@
                     <td><button onclick="inserir('1')">1</button></td>
                     <td><button onclick="inserir('2')">2</button></td>
                     <td><button onclick="inserir('3')">3</button></td>
-                    <td><button onclick="inserir('4')">+</button></td>
+                    <td><button onclick="inserir('+')">+</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="inserir('.')">.</button></td>
                     <td><button onclick="inserir('0')">0</button></td>
-                    <td><button >⌫</button></td>
-                    <td><button style="background-color: orange;" onclick="inserir('=')">=</button></td>
+                    <td><button onclick="limpaUm()">⌫</button></td>
+                    <td><button style="background-color: orange;" onclick="somar()">=</button></td>
                 </tr>
             </table>
 
@@ -47,4 +47,5 @@
     </div>
     
 </body>
+<script src="script.js"></script>
 </html>
