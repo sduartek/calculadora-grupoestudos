@@ -75,3 +75,5 @@ function calcularPorcentagem() {
     }
 }
 
+// amém
+
